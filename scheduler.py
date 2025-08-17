@@ -34,10 +34,10 @@ def schedule_random_week(path, times_per_week=3, start_hour=9, end_hour=17):
 
 #------------------Scripts After Here-------------------#
 
-schedule_random_week(r"path", times_per_week=2, start_hour=9, end_hour=17)
-schedule_random_week(r"path", times_per_week=3, start_hour=18, end_hour=23)
-schedule_random_week(r"path", times_per_week=2, start_hour=1, end_hour=20)
-schedule_random_week(r"path", times_per_week=3, start_hour=4, end_hour=8)
+schedule_random_week(r"path-to-script", times_per_week=2, start_hour=9, end_hour=17)
+schedule_random_week(r"path-to-script", times_per_week=3, start_hour=18, end_hour=23)
+schedule_random_week(r"path-to-script", times_per_week=2, start_hour=1, end_hour=20)
+schedule_random_week(r"path-to-script", times_per_week=3, start_hour=4, end_hour=8)
 
 while True:
     schedule.run_pending()
